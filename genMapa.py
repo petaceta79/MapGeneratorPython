@@ -154,7 +154,6 @@ def verMapaPNG(mapa, nombre = "mapa", casillasEspeciales = [1, 2, 3, 4], colorCa
                     dibujo.rectangle([i*50, e*50, i*50+50, e*50+50], outline='black', fill='white')
     # Guardar imagen
     imagen.save(str(nombre) + '.png')
-    imagen.show()
 
 
 # Codigo------------------

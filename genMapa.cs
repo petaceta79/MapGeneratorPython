@@ -201,6 +201,8 @@ class Program
     {
         var mapa = CrearMapa(15, 50, new List<int> { 10, 11, 12, 13, 14, 15 }, 0.5, new List<int> { 1, 2, 3 }, new List<int> { 1, 1, 1 });
         VerMapaCMD(mapa);
+        Console.WriteLine("-------");
+        Console.WriteLine(mapa[7][7]);
     }
 }
 
